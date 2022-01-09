@@ -1,0 +1,106 @@
+body{
+  background-image: url("background.jpg");
+  margin: 0;
+
+
+  overflow-x: hidden;
+
+
+    font-family: 'Lalezar', cursive;
+}
+
+a{
+  height: 20px;
+  text-decoration: none;
+    color: white;
+
+
+
+}
+
+.size_of_itme1:hover{
+  background-color:#2F3A8F ;
+
+}
+.size_of_itme2:hover{
+  background-color:#2F3A8F ;
+
+}
+.size_of_itme3:hover{
+  background-color:#2F3A8F ;
+
+}
+.size_of_itme4:hover{
+  background-color:#2F3A8F ;
+
+}
+.parent{
+/*display: flex;*/
+background-color: #4FBDBA;
+position: relative;
+height: 45px;
+}
+
+.size_of_itme1{
+position:absolute;
+
+  padding: 10px;
+  height: 25px;
+  font-size: 20px;
+}
+.size_of_itme2{
+position:absolute;
+
+  padding: 10px;
+  height: 25px;
+  font-size: 20px;
+  right: 120.467px;
+}
+.size_of_itme3{
+position:absolute;
+
+  padding: 10px;
+  height: 25px;
+  font-size: 20px;
+  right: 199.867px;
+}
+.size_of_itme4{
+position:absolute;
+
+  padding: 10px;
+  height: 25px;
+  font-size: 20px;
+  right: 315.617px;
+}
+.middel{
+  margin-top: 15%;
+  text-align: center;
+}
+.img-of-class{
+border-radius: 15%;
+  left: 25%;
+  right: 36%;
+  height: 50%;
+  width: 50%;
+}
+.button button{
+      font-family: 'Lalezar', cursive;
+  font-size: 25px;
+  height: 50px;
+  width: 120px;
+  border-radius:30px;
+  background-color:#4FBDBA;
+  border-color:#4FBDBA ;
+}
+.button button:hover{
+  background-color:  #2F3A8F;
+}
+@media only screen and (min-width: 1000px)  {
+  .img-of-class{
+  border-radius: 15%;
+    left: 25%;
+    right: 36%;
+    height: 25%;
+    width: 25%;
+  }
+}
